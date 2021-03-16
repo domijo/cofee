@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    border-color: #E5E5E5;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:;
+}
+
+ul{
+    
+    list-style: none;
+    
+}
+li{
+    gap: 40px;
+}
+.header ul a{
+    text-decoration: none;
+    color: #0A0600;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    color: #995504;
+    gap: 50px;
+}
+#home1{
+    color:#995504 ;
+}
+.food{
+    color: black;
+    line-height: 35px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.ko{
+    color: #995504;
+    line-height: 35px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+}
+.vecteur2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-right: 40px;
+}
+.vecteur2 img{
+    background-color: #995504;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.vecteur2 p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#fff;
+}
+    
+.main{
+    display: flex;
+
+}
+.section{
+    margin-left: 50px;
+}
+h1{
+    
+    font-weight: bold;
+    width: 600px;
+    height: 225px;
+    font-size: 80px;
+    color: black;
+}
+.vineger{
+    display: flex;
+    gap: 15px;
+}
+.texte{
+    color: #0A0600;
+    opacity: 0.5;
+}
+.sidevineger{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    gap: 8px;
+    
+}
+.chiffre{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.div1, .div2, .div3{
+    display: flex;
+}
+.div1{
+    gap: 20px;s
+}
+.div3 {
+    
+    justify-content: center;
+    background-color: #995504;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 40px;
+    
+
+
+}
+.div2{
+    gap: 40px;
+    font-weight: bold;
+}
+.div2 p{
+    padding: 10px, 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.coffee{
+margin-left: 100px;
+}
+.minicoffee{
+    margin-left: 235px;
+   
+}
+.coffee1,  .coffee3{
+    border-top: solid 2px ;
+    border-top-color: rgb(155 85 4 );
+    
+}
+.coffee2{
+    border-top: solid #995504 2px ;
+     
+}
+
+.p1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.p22{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #0A0600;
+    opacity: 0.5;
+}
+.star{
+    width: 20px;
+    height: 15px;
+
+}
+
+
+#recherche {
+    width:208px;
+    height:24px;
+    background:white;
+    box-shadow:1px 1px 2px rgba(0,0,0,.3) inset;
+    border-radius:2em;
+    
+    }
+      
+    #recherche .loupe {
+    background:url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
+    width:24px;
+    }
+      
+    #recherche input {
+    outline:0;
+    border:0;
+    margin:0;
+    height:24px;
+    float:left;
+    display:block;
+    }
+      
+    #recherche input[type=text] {
+    font:300 12px HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background:none;
+    width:180px;
+    padding:0 9px;
+    color:#666;
+    }
+   
