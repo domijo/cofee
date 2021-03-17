@@ -67,12 +67,13 @@ ul {
 .vecteur2 p{
     position: absolute;
     top: 0;
-    right: 0;
+    right: -7;
     text-align: center;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color:#fff;
+    transform: translateY(-125%);
 }
     
 .main{
@@ -115,19 +116,18 @@ h1{
     display: flex;
 }
 .div1{
-    gap: 20px;s
+    gap: 20px;
 }
 .div3 {
-    
+    display: flex;
     justify-content: center;
     background-color: #995504;
     color: white;
     border-radius: 10px;
     text-align: center;
     padding: 5px 40px;
+    gap:15px;
     
-
-
 }
 .div2{
     gap: 40px;
@@ -154,7 +154,14 @@ margin-left: 100px;
     border-top: solid #995504 2px ;
      
 }
-
+.div3 img{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+.coffee2{
+    mix-blend-mode: darken;
+}
 .p1{
     font-size: 30px;
     font-weight: bold;
@@ -170,6 +177,13 @@ margin-left: 100px;
     width: 20px;
     height: 15px;
 
+}
+aside{
+    margin-right: 50%;
+    margin-top: 50px;
+}
+form{
+    border-color: #995504;
 }
 
 
